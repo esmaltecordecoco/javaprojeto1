@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(600, 1000);
   background("rgb(227,142,247)")
 }
 
@@ -9,7 +9,7 @@ function draw() {
   fill("rgb(151,101,228)");
   
   if(mouseIsPressed){
-    rect(mouseX, mouseY, 20, 35);
+    circle(mouseX, mouseY, 10, 15);
   }
 }
 
